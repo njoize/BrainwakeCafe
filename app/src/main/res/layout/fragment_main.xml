@@ -16,9 +16,9 @@
         <!--Logo-->
         <ImageView
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/logo1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:src="@drawable/logo_bw"
+            android:layout_width="250dp"
+            android:layout_height="250dp" />
 
         <!--Title-->
         <TextView
@@ -33,20 +33,23 @@
 
         <!--User-->
         <EditText
+            android:id="@+id/edtUser"
             android:inputType="text"
-            android:hint="User :"
+            android:hint="Username"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <!--Password-->
         <EditText
+            android:id="@+id/edtPassword"
             android:inputType="textPassword"
-            android:hint="Password :"
+            android:hint="Password"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
 
         <!--Remember CheckBox-->
         <CheckBox
+            android:id="@+id/chbRememberMe"
             android:textColor="@color/colorPrimaryDark"
             android:text="Remember Me"
             android:layout_width="match_parent"
@@ -54,6 +57,7 @@
 
         <!--Login-->
         <Button
+            android:id="@+id/btnLogin"
             android:text="Login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
